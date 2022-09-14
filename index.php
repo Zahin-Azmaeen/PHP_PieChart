@@ -18,8 +18,8 @@
             // To render the pie chart.
             var chart = new google.visualization.PieChart(document.getElementById('chart_container'));
             chart.draw(data, {
-                width: 400,
-                height: 240
+                width: 800,
+                height: 640
             });
         }
         // load the visualization api
